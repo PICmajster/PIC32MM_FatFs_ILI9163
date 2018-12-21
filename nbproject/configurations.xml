@@ -18,6 +18,10 @@
         <itemPath>mcc_generated_files/system.h</itemPath>
         <itemPath>mcc_generated_files/spi1.h</itemPath>
       </logicalFolder>
+      <logicalFolder name="f2" displayName="Record_to_SD_card" projectFiles="true">
+        <itemPath>mikolaj.txt</itemPath>
+        <itemPath>pickup.txt</itemPath>
+      </logicalFolder>
       <logicalFolder name="f1" displayName="SD" projectFiles="true">
         <itemPath>diskio.h</itemPath>
         <itemPath>ff.h</itemPath>
