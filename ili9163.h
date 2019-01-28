@@ -298,9 +298,9 @@ inline uint8_t lcdTextY(uint8_t y) { return y*8; }
 //	LCD function prototypes
 
 void lcdReset(void);
-void lcdWriteCommand_bis(uint8_t cmdOut);
-void lcdWriteParameter_bis(uint8_t data);
-void lcdWriteData_bis(uint8_t dataByte1, uint8_t dataByte2);
+void lcdWriteCommand(uint8_t cmdOut);
+void lcdWriteParameter(uint8_t data);
+void lcdWriteData(uint8_t dataByte1, uint8_t dataByte2);
 void lcdInitialize(void);
 
 void lcdLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1, uint16_t colour);
