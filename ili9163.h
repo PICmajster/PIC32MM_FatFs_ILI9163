@@ -288,12 +288,12 @@
 // This routine takes a row number from 0 to 20 and
 // returns the x coordinate on the screen (0-127) to make
 // it easy to place text
-inline uint8_t lcdTextX(uint8_t x) { return x*6; }
+//inline uint8_t lcdTextX(uint8_t x) { return x*6; }
 
 // This routine takes a column number from 0 to 20 and
 // returns the y coordinate on the screen (0-159) to make
 // it easy to place text
-inline uint8_t lcdTextY(uint8_t y) { return y*8; }
+//inline uint8_t lcdTextY(uint8_t y) { return y*8; }
 
 //	LCD function prototypes
 
